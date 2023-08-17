@@ -44,7 +44,7 @@ const Login = () => {
 
         if(isSuccess || user) {
             navigate('/')
-        } //checar por que se ejecuta despues del register
+        }
 
         dispatch(reset())
 
